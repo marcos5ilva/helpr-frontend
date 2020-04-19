@@ -4,6 +4,8 @@
 
 A donation app that works as a platform based on micro-funding initiatives. HELPR facilitates the connection between NGOs and donors, supporting small projects.
 
+![](/src/assets/helper-screencast.gif)
+
 ## Technologies
 
 ### Front-end
