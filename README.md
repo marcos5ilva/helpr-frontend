@@ -1,7 +1,15 @@
 # HELPR
 
-[](https://github.com/marcos5ilva/helpr-frontend/blob/master/src/assets/logo.svg)
+![](/src/assets/logo.svg)
+
 A donation app that works as a platform based on micro-funding initiatives. HELPR facilitates the connection between NGOs and donors, supporting small projects.
+
+## Technologies
+
+- **Postgres**
+- **Express**
+- **React**
+- **Node**
 
 ## Getting Started
 
