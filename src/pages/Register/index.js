@@ -23,7 +23,7 @@ const Register = () => {
       email,
       whatsapp,
       city,
-      state
+      state,
     };
     try {
       const response = await api.post('ngos', data);
@@ -37,53 +37,53 @@ const Register = () => {
   }
 
   return (
-    <div className='register-container'>
-      <div className='content'>
+    <div className="register-container">
+      <div className="content">
         <section>
-          <img src={logoImg} alt='helpr logo' />
+          <img src={logoImg} alt="helpr logo" />
           <h1>Sign Up</h1>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <Link className='back-link' to='/'>
-            <FiArrowLeft size={16} color='#E02041' />
+          <p>Small gesture of Great Social Impact</p>
+          <Link className="back-link" to="/">
+            <FiArrowLeft size={16} color="#E02041" />
             Already have an account
           </Link>
         </section>
 
         <form onSubmit={handleRegister}>
           <input
-            placeholder='NGO name'
-            type='text'
+            placeholder="NGO name"
+            type="text"
             value={name}
-            onChange={e => setName(e.target.value)}
+            onChange={(e) => setName(e.target.value)}
           />
           <input
-            placeholder='email'
-            type='text'
+            placeholder="email"
+            type="text"
             value={email}
-            onChange={e => setEmail(e.target.value)}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <input
-            placeholder='whatsapp'
-            type='text'
+            placeholder="whatsapp"
+            type="text"
             value={whatsapp}
-            onChange={e => setWhatsapp(e.target.value)}
+            onChange={(e) => setWhatsapp(e.target.value)}
           />
-          <div className='input-group'>
+          <div className="input-group">
             <input
-              placeholder='city'
-              type='text'
+              placeholder="city"
+              type="text"
               value={city}
-              onChange={e => setCity(e.target.value)}
+              onChange={(e) => setCity(e.target.value)}
             />
             <input
-              placeholder='province'
-              type='text'
+              placeholder="province"
+              type="text"
               style={{ width: 120 }}
               value={state}
-              onChange={e => setState(e.target.value)}
+              onChange={(e) => setState(e.target.value)}
             />
           </div>
-          <button className='button' type='submit'>
+          <button className="button" type="submit">
             Sign Up
           </button>
         </form>
