@@ -15,7 +15,7 @@ A donation app that works as a platform based on micro-funding initiatives. HELP
 ### Back-end
 
 - **Express**
-- **Postgres**
+- **PostgreSQL**
 - **Node**
 
 _Back-end repository:_ https://github.com/marcos5ilva/helper-backend
